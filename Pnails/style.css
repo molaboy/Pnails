@@ -1,0 +1,143 @@
+body { background-color: gray;
+position: relative;
+margin: 0;
+}
+body img { 
+  justify-content: center;
+  width: 790px;
+}
+header {color: aquamarine }
+header nav {}
+
+/* Set the position of the header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 999;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 8px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Set the position of the article */
+  article {
+    margin-top: 80px; /* adjust the value as needed */
+  }
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .product-card img {
+    width: 300px;
+    height: 183px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .product-info {
+    padding: 10px;
+  }
+  
+  .product-info h3 {
+    margin-top: 0;
+  }
+  
+  .buy-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+  }
+  .buy-btn a :hover{  background-color: #ddd;}
+
+
+  .footer-container {
+    background-color: #0a0a0a;
+    display: flex;
+    flex-wrap: wrap; 
+    color: #ccc;
+  }
+   p{ font-size: 16px;}
+   	form {
+			max-width: 500px;
+			margin: auto;
+		}
+		input[type=text], input[type=email], textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-bottom: 16px;
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: right;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+	a:is(:link,:active,:visited).active{
+    color: white;
+    background-color: hsl(0, 0%, 0%);
+    paddi: 5rem 1.5rem;
+  }
+  article p{
+    font-size: 30px;
+    color: #dddddd;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+  }
+
+  .par {
+    font-size: 30px;
+    color: #a32424;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+  }
